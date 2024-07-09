@@ -1,0 +1,35 @@
+* {
+  font-family: system-ui;
+}
+
+body {
+  width: 130px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.setting-item-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
+button:hover, select:hover {
+  cursor: pointer;
+}
+
+select, button {
+  border: 1px solid black;
+  border-radius: 0.25rem;
+}
+
+button {
+  background: white;
+}
+
+hr {
+  width: 100%;
+}
